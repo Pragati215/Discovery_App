@@ -1,0 +1,76 @@
+.Logo {
+  width: 14em;
+  margin-top: 4em;
+  margin-left: 3em;
+  filter: saturate(400%) brightness(100%);
+}
+.soEliteContainer {
+  display: flex;
+  flex-direction: column;
+}
+.soeliteHeader {
+  transform: translate3d(0px, 0px, 0px);
+  height: var(--header-normal);
+  z-index: 1;
+  position: relative;
+  top: -2em;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: none;
+  box-shadow: 1px 5px #3a8d10;
+  border: 1px solid #21d328;
+}
+.soeliteNavbar {
+  display: flex;
+  pointer-events: all;
+  content: "";
+  /* position: absolute; */
+  top: 3rem;
+  left: 0rem;
+  right: -1.5rem;
+  bottom: -1.5rem;
+  /* position: relative; */
+  z-index: 2;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font: 14.5549px;
+}
+.soeliteMenu {
+  /* position: relative; */
+  display: flex;
+  left: -1.5rem;
+}
+
+.soeliteAbout {
+  /* position: relative; */
+  display: block;
+  margin-right: 3rem;
+  font-family: fantasy;
+  overflow: hidden;
+  z-index: 2;
+  /* color: #fff; */
+}
+/*   
+.soEliteparagraph {
+  color: #111;
+  margin-top: 30em;
+  font-size: 25px;
+  /* font-family: "Titillium Web", sans-serif; */
+/* font-family: serif;
+}  */
+
+.soEliteSlogan {
+  text-align: center;
+  margin-right: auto;
+  width: 100%;
+  font-weight: bold;
+  font-size: -webkit-xxx-large;
+  background-color: #5cdb1c;
+  color: #ffffff;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
