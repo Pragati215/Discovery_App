@@ -45,3 +45,26 @@
   width: 14em;
   filter: saturate(400%) brightness(100%);
 }
+.soEliteSlogan {
+  text-align: center;
+  margin-right: auto;
+  width: 100%;
+  font-weight: bold;
+  font-size: -webkit-xxx-large;
+  /* background-color: #d1e6bf; */
+  background-color: #2eef01f7;
+
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  border-radius: 60px;
+}
+.multicolortext {
+  background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

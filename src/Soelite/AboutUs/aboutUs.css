@@ -1,0 +1,18 @@
+.aboutUsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px;
+}
+.aboutusInfo {
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.tofulabel {
+  width: 20em;
+  margin-top: 0em;
+  margin-left: 4em;
+  filter: saturate(400%) brightness(100%);
+}
