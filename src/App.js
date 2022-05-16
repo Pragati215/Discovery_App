@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import SoElite from "./Soelite/soelite";
-import AboutUs from "./Soelite/AboutUs/aboutUs";
-import Header from "./Soelite/Header/header";
-import Footer from "./Soelite/Footer/footer";
+import HomePage from "./Soelite/Pages/Home/homePage";
+import AboutUsPage from './Soelite/Pages/AboutUs/aboutUs'
+import Header from "./Soelite/Components/Header/header";
+import Footer from "./Soelite/Components/Footer/footer";
 class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <SoElite /> */}
+     
         <Header />
-        {/* <AboutUs /> */}
-        <SoElite /> 
+        {/* <AboutUsPage /> */}
+        <HomePage /> 
         <Footer />
       </div>
     );

@@ -2,7 +2,7 @@
   /* background-color: #8de011; */
   /* background-color: #a0ee2c; */
   background-color: #081002;
-color: white;
+  color: white;
   width: 100%;
   height: 400px;
   display: flex;
@@ -42,8 +42,14 @@ color: white;
   font-size: 20px;
   font-family: sans-serif;
 }
-.appIcons{
-    display: flex;
-    justify-content: space-around;
-    width: 60px;
+.appIcons {
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+}
+
+svg {
+  background-color: white;
+  width: 32px;
+  height: 32px;
 }

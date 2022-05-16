@@ -1,6 +1,7 @@
 import React from "react";
 import "./aboutUs.css";
 import ProductLabel from "../../soeliteAssects/TofuLabel.jpg";
+
 export default function AboutUs() {
   return (
     <>

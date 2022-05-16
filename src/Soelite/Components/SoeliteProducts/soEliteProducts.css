@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* align-items: center; */
 }
 .productImage {
   width: 14em;
@@ -47,22 +46,23 @@
 }
 .soEliteSlogan {
   text-align: center;
-  margin-right: auto;
-  width: 100%;
   font-weight: bold;
-  font-size: -webkit-xxx-large;
-  /* background-color: #d1e6bf; */
-  background-color: #2eef01f7;
-
-  height: 160px;
-  display: flex;
-  align-items: center;
+  font-size: 70px;
   justify-content: center;
   margin: 20px 0px;
-  border-radius: 60px;
 }
+
 .multicolortext {
-  background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    green,
+    blue,
+    yellow,
+    orange,
+    red
+  );
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
