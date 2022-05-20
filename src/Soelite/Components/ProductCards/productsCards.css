@@ -1,26 +1,74 @@
+.soeliteProductInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
 .tofuCard {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 70%;
+  width: 100%;
+  margin-top: 2em;
+  padding: 40px;
+}
+.tofuProductDetails {
+  font-size: 32px;
+  font-family: sans-serif;
+  padding-left: 50px;
+}
+.milkProductDetails {
+  font-size: 32px;
+  font-family: sans-serif;
+  padding-right: 50px;
+}
+.soyaMilkProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   margin-top: 2em;
 }
-.tofuTypes {
-  margin-top: 6em;
-}
-.milkTypes {
-  margin-top: 4em;
-}
-.cardTitle {
-  margin-top: 2em;
+.title {
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .milkImage {
-  width: 9em;
-  height: 9em;
-  margin-top: 4em;
+  width: 25em;
+  height: 25em;
 }
 .tofuImage {
-  width: 9em;
-  height: 9em;
-  margin-top: 4em;
+  width: 25em;
+  height: 25em;
+}
+.typesOfMilk {
+  display: flex;
+  flex-direction: column;
+}
+.Fssai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.middleContainter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+.box {
+  background-color: green;
+  width: 350px;
+  height: 150px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  font-family: fantasy;
+}
+.fssaiImage {
+  width: 14em;
+  filter: saturate(400%) brightness(100%);
 }

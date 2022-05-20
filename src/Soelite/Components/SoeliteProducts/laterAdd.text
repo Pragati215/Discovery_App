@@ -1,0 +1,30 @@
+<div className="soeliteProducts">
+<div className="singleProduct">
+  <img className="productImage" src={Logo} alt="logo"></img>
+  <h3>Tofu</h3>
+</div>
+<div className="singleProduct">
+  <img className="productImage" src={Logo} alt="logo"></img>
+  <h3>SoyaMilk</h3>
+</div>
+<div className="singleProduct">
+  <img className="productImage" src={Logo} alt="logo"></img>
+  <h3>Chaap</h3>
+</div>
+<div className="singleProduct">
+  <img className="productImage" src={Logo} alt="logo"></img>
+  <h3>Soya Curd </h3>
+</div>
+<div className="singleProduct">
+  <img className="productImage" src={Logo} alt="logo"></img>
+  <h3>Soya Shrikhand</h3>
+</div>
+<div className="singleProduct">
+  <img className="productImage" src={Logo} alt="logo"></img>
+  <h3>Soya Lassi</h3>
+</div>
+<div className="singleProduct">
+  <img className="productImage" src={Logo} alt="logo"></img>
+  <h3>Soya Butter Milk</h3>
+</div>
+</div>

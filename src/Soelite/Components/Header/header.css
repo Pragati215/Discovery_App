@@ -25,6 +25,7 @@
   margin-right: 4rem;
   font-family: fantasy;
   overflow: hidden;
+  font-size: 25px;;
 }
 .headerContainer {
   display: flex;

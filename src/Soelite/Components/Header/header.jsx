@@ -18,6 +18,9 @@ export default function Header() {
             <a > About Us </a>
           </li>
           <li className="soeliteAbout">
+              <a> Benefits </a>
+            </li>
+          <li className="soeliteAbout">
             <a> Contact Us </a>
           </li>
         </ul>
