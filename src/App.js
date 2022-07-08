@@ -5,7 +5,7 @@ import AboutUsPage from "./Soelite/Pages/AboutUs/aboutUs";
 import Header from "./Soelite/Components/Header/header";
 import Footer from "./Soelite/Components/Footer/footer";
 import Benefits from './Soelite/Pages/Benefits/benefits';
-import ContactUs from './Soelite/Pages/ContactUs/contactUs';
+import ContactUs from './Soelite/Pages/ContactUsPage/contactUsPage';
 class App extends Component {
   render() {
     return (
