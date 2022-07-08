@@ -41,10 +41,10 @@ export default function footer() {
         </div>
         <div className="quickLinks">
           <h3>Quick Links</h3>
-          <a>Home</a>
-          <a>About Us</a>
-          <a> Contact Us</a>
-          <a> Benefits</a>
+          <a href="/">Home</a>
+          <a href="/aboutUs">About Us</a>
+          <a href="/contactUs"> Contact Us</a>
+          <a href="/benefits"> Benefits</a>
           <a> Soya Paneer</a>
           <a> Feedback</a>
         </div>

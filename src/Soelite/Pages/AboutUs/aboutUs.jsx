@@ -1,13 +1,13 @@
 import React from "react";
 import './aboutUs.css';
 import AboutUs from '../../Components/AboutUs/aboutUs';
-import SoEliteBenefits from "../../Components/SoeliteBenefits/soeliteBenefits";
+import SoEliteAboutUs from "../../Components/SoeliteAboutUs/soeliteAboutUs";
 
 const AboutUsPage = () => {
   return (
     <div className="soEliteContainer">
      <AboutUs />
-     <SoEliteBenefits />
+     <SoEliteAboutUs />
     </div>
   );
 };

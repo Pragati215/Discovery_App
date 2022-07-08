@@ -8,7 +8,7 @@ export default function soEliteProducts() {
     <>
       <div className="soEliteSlogan">
       <span className="multicolortext">
-          Soelite. Health and taste Prioritized{" "}
+          Soelite. Health and taste Prioritized
         </span>
         <img
           className="soyapaneerImage"

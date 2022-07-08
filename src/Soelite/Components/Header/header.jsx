@@ -12,16 +12,16 @@ export default function Header() {
       <nav className="soeliteNavbar">
         <ul className="soeliteMenu">
           <li className="soeliteAbout">
-            <a> Home</a>
+            <a href='/'> Home</a>
           </li>
           <li className="soeliteAbout">
-            <a > About Us </a>
+            <a href='/aboutUs'> About Us </a>
           </li>
           <li className="soeliteAbout">
-              <a> Benefits </a>
+              <a href='/benefits'> Benefits </a>
             </li>
           <li className="soeliteAbout">
-            <a> Contact Us </a>
+            <a href="/contactUs"> Contact Us </a>
           </li>
         </ul>
       </nav>
